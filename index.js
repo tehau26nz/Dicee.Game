@@ -7,3 +7,9 @@ function getRandomNumber1(min,max){ // Created a function that returns a random 
 }
 
 console.log(randomNumber1); // Console log to check
+
+
+/********DOM, getters and setters Attributes********/
+
+document.querySelector("img").getAttribute("src");
+document.querySelector("img").setAttribute("src","/images/dice"+randomNumber1+".png"); // Switch between the images number
