@@ -1,4 +1,5 @@
 var randomNumber1 = getRandomNumber1(); // Created the random number variable
+var randomNumber2 = getRandomNumber1(); // Created the random number variable
 
 function getRandomNumber1(min,max){ // Created a function that returns a random number
     min = Math.ceil(1); // Min number is 1
@@ -9,7 +10,9 @@ function getRandomNumber1(min,max){ // Created a function that returns a random 
 console.log(randomNumber1); // Console log to check
 
 
-/********DOM, getters and setters Attributes********/
+/********DOM, getters and setters attributes for PL1 and PL2********/
 
-document.querySelector("img").getAttribute("src");
-document.querySelector("img").setAttribute("src","/images/dice"+randomNumber1+".png"); // Switch between the images number
+document.querySelector("img.img1").getAttribute("src");
+document.querySelector("img.img1").setAttribute("src","/images/dice"+randomNumber1+".png"); // Switch between the img and number
+document.querySelector("img.img2").getAttribute("src");
+document.querySelector("img.img2").setAttribute("src","/images/dice"+randomNumber2+".png"); // Switch between the img and number
