@@ -11,9 +11,9 @@ function getRandomNumber1(min,max){ // Created a function that returns a random 
 /********DOM, getters and setters attributes for PL1 and PL2********/
 
 document.querySelector("img.img1").getAttribute("src");
-document.querySelector("img.img1").setAttribute("src","/images/dice"+randomNumber1+".png"); // Switch between the img and number
+document.querySelector("img.img1").setAttribute("src","/projects/Dicee.Game/images/dice"+randomNumber1+".png"); // Switch between the img and number
 document.querySelector("img.img2").getAttribute("src");
-document.querySelector("img.img2").setAttribute("src","/images/dice"+randomNumber2+".png"); // Switch between the img and number
+document.querySelector("img.img2").setAttribute("src","/projects/Dicee.Game/images/dice"+randomNumber2+".png"); // Switch between the img and number
 
 
 /********If condition that changes the title to display a winner********/

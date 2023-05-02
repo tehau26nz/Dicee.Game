@@ -22,6 +22,14 @@ h1 {
   color: #cacc4e;
 }
 
+h2 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  color: #cacc4e;
+}
+
 p {
   font-size: 2rem;
   color: #cc9e4e;
