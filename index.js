@@ -19,13 +19,13 @@ document.querySelector("img.img2").setAttribute("src","/projects/Dicee.Game/imag
 /********If condition that changes the title to display a winner********/
 function winningPhrase(){
     if(randomNumber1<randomNumber2){
-        return "Player 2 wins";
+        return "Player 2 wins 🚩";
     }
     else if(randomNumber1>randomNumber2){
-        return "Player 1 wins";
+        return "🚩 Player 1 wins";
     }
     else if(randomNumber1===randomNumber2){
-        return "Draw";
+        return "Draw!";
     }
 }
 winningPhrase();
